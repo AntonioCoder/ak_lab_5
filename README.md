@@ -1,29 +1,19 @@
-# Foobar
+# Lab5
 
-Foobar is a Python library for dealing with word pluralization.
+The 5th laboratory work on CA is work with command line parameters
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Keys and parameters
 
-```bash
-pip install foobar
 ```
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Key: -v or --velosiped  #key without arguments, added to test key uniqueness
+Key: -h or --help       #key without arguments
+Key: -s or --size	#key has optional arguments
+Key: -f or --file	#key has required argument
+		key lol
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
